@@ -16,9 +16,10 @@ class _Home_ScreenState extends State<Home_Screen> {
         title: Row(
         // ====================appbar new=======================
          children: [
+           Expanded(child: Align(alignment: Alignment.centerLeft,  child: Icon(Icons.menu))),
           Text("arzbin",style: TextStyle(fontSize: 18,fontWeight:FontWeight.bold)),
 
-           Icon(Icons.menu),
+
          ],
 
 
